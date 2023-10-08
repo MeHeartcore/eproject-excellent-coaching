@@ -1,0 +1,133 @@
+.footer-container
+> .container-fluid
+> .row
+> #brand-logo-wrapper {
+	background-color: var(--main-color-ffffff);
+	height: 175px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #brand-logo-wrapper
+> div {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #brand-logo-wrapper
+> div
+> img {
+	width: auto;
+	height: 65px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper {
+	background-color: var(--main-color-000000);
+	height: 175px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> div
+> img {
+	width: auto;
+	height: 125px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	width: 800px;
+	height: 125px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> div {
+	width: 500px;
+	height: 50px;
+	color: var(--main-color-ffffff);
+	font-size: 12px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 700px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> img {
+	width: auto;
+	height: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> a {
+	text-decoration: none;
+	color: var(--main-color-ffffff);
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> a:hover {
+	text-decoration: none;
+	color: var(--main-color-e6fe58);
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#hidden-space {
+	visibility: hidden;
+}

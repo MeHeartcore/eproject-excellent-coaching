@@ -1,0 +1,21 @@
+.course-container
+> div {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.package-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	margin-top: 50px;
+}
+
+.trainer-wrapper {
+	margin-top: 50px;
+}
+
+.course-container
+> h1 {
+	text-align: center;
+}

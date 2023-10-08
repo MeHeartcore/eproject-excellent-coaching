@@ -1,0 +1,13 @@
+.header-container
+> .container-fluid
+> .row
+> .col
+> div {
+	background-image: url("../../../assets/images/header/header_intro.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 615px;
+}
+

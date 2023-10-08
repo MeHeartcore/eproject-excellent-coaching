@@ -1,0 +1,43 @@
+[
+	{
+		"className": "Yoga",
+		"coursesAvailable": 1,
+		"courseList": [
+			{
+				"courseCode": "YOGA2023",
+				"courseName": "Yoga - Mental Comfort",
+				"packagesAvailable": 3,
+				"packageList": [
+					{
+						"packageName": "Basic",
+						"price": 16.48,
+						"duration": 1
+					},
+					{
+						"packageName": "Advanced",
+						"price": 24.73,
+						"duration": 1
+					},
+					{
+						"packageName": "Professional",
+						"price": 37.09,
+						"duration": 1
+					}
+				]
+			}
+		],
+		"coachesAvailable": 1,
+		"coachList": [
+			{
+				"coachName": "Jason Crandell",
+				"coachableCourse": [
+					"YOGA2023"
+				],
+				"yearsOfExperience": 15,
+				"describeAchievements": "Content"
+			}
+		],
+		"imageCourse": "/src/assets/images/blog/blog3.jpg",
+		"imageCoach": "/src/assets/images/blog/blog2.jpg"
+	}
+]

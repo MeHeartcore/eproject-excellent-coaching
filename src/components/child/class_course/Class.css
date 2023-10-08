@@ -1,0 +1,121 @@
+.class-container
+> .container-fluid {
+	height: 1000px;
+	background-color: white;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> div {
+	background-color: black;
+	width: 800px;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list {
+	height: 900px;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list
+> div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list
+> div
+> img {
+	width: 40%;
+	height: 250px;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list
+> div
+> div
+> h3,
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list
+> div
+> div
+> p {
+	width: 400px;
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list
+> div
+> div
+> h3 {
+	text-align: center;
+	color: var(--main-color-e6fe58);
+}
+
+.class-container
+> .container-fluid
+> .row
+> .interested-class
+> .list
+> div
+> div
+> p {
+	font-size: 14px;
+	color: white;
+}
+
+.button-course {
+	border-radius: 10px;
+	background-color: black;
+	border: solid 3px var(--main-color-e6fe58);
+	color: var(--main-color-e6fe58);
+}
+
+.button-course:hover {
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	border: solid 3px var(--main-color-ffffff);
+}
+
+.interested-class
+> div
+> h1 {
+	color: var(--main-color-e6fe58);
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,122 @@
+
+/* make variables */
+
+.App_gallery{
+  background-color: black;
+  flex-direction: column;
+  gap: 7rem;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display:flex;
+}
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+:root {
+  --white: #fff;
+  --yellow: #e6fe58;
+  --black: #000;
+  --main-transition: 0.3s;
+}
+
+/* body {
+  font-family: "Roboto", sans-serif;
+} */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.margin-sections {
+  margin-top: 90px;
+}
+
+@media (max-width: 900px) {
+  .margin-sections {
+    margin-top: 70px;
+  }
+}
+
+.sections-padding {
+  padding: 8rem 0;
+}
+
+.main-heading {
+  color: var(--white);
+  font-size: 50px;
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: black;
+  --stroke-color: lightblue;
+  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
+    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
+      0px var(--stroke-color);
+}
+
+.main-background {
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: var(--black);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+.first {
+  background-image: url("../../../assets/images/intro/about1.jpg");
+}
+
+.second{
+  color: white;
+  text-align: center;
+  text-decoration: dashed;
+}
+
+.news {
+	color: var(--main-color-e6fe58);
+}
+
+@media (max-width: 800px) {
+  .boxes {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
