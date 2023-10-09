@@ -4,13 +4,13 @@ import {
 	Col
 } from "react-bootstrap"
 
-import Header from "../../child/header/Header.jsx"
+import Navigation from "../../child/navigation_bar/Navigation_Bar.jsx"
 import Footer from "../../child/footer/Footer.jsx"
 
 function Privacy() {
 	return (
 		<div>
-			<Header/>
+			<Navigation/>
 			<Container className="all">
 				<Row>
 					<Col>

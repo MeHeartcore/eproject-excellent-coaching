@@ -34,7 +34,184 @@
 					"YOGA2023"
 				],
 				"yearsOfExperience": 15,
-				"describeAchievements": "Content"
+				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
+			}
+		],
+		"imageCourse": "/src/assets/images/blog/blog3.jpg",
+		"imageCoach": "/src/assets/images/blog/blog2.jpg"
+	},
+	{
+		"className": "Gym",
+		"coursesAvailable": 1,
+		"courseList": [
+			{
+				"courseCode": "GYM2023",
+				"courseName": "Gym - Breaking Out",
+				"packagesAvailable": 2,
+				"packageList": [
+					{
+						"packageName": "Personal",
+						"price": 82.42,
+						"duration": 1
+					},
+					{
+						"packageName": "Community",
+						"price": 20.61,
+						"duration": 1
+					}
+				]
+			}
+		],
+		"coachesAvailable": 1,
+		"coachList": [
+			{
+				"coachName": "Ross Dickerson",
+				"coachableCourse": [
+					"GYM2023"
+				],
+				"yearsOfExperience": 10,
+				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
+			}
+		],
+		"imageCourse": "/src/assets/images/blog/blog3.jpg",
+		"imageCoach": "/src/assets/images/blog/blog2.jpg"
+	},
+
+	{
+		"className": "Dance",
+		"coursesAvailable": 2,
+		"courseList": [
+			{
+				"courseCode": "SEXYDANCE2023",
+				"courseName": "Sexy Dance - Feeling Emotion",
+				"packagesAvailable": 2,
+				"packageList": [
+					{
+						"packageName": "Seamless Card",
+						"price": 24.73,
+						"duration": 2
+					},
+					{
+						"packageName": "Dash Card",
+						"price": 28.85,
+						"duration": 2
+					}
+				]
+			},
+			{
+				"courseCode": "ZUMBA2023",
+				"courseName": "Zumba",
+				"packagesAvailable": 2,
+				"packageList": [
+					{
+						"packageName": "Eight Sessions",
+						"price": 20.61,
+						"duration": 1
+					}
+				]
+			}
+		],
+		"coachesAvailable": 2,
+		"coachList": [
+			{
+				"coachName": "Yanis Marshall",
+				"coachableCourse": [
+					"SEXYDANCE2023"
+				],
+				"yearsOfExperience": 12,
+				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
+			},
+			{
+				"coachName": "Kass Martin",
+				"coachableCourse": [
+					"ZUMBA2023"
+				],
+				"yearsOfExperience": 0,
+				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
+			}
+		],
+		"imageCourse": "/src/assets/images/blog/blog3.jpg",
+		"imageCoach": "/src/assets/images/blog/blog2.jpg"
+	},
+
+	{
+		"className": "Cycling",
+		"coursesAvailable": 1,
+		"courseList": [
+			{
+				"courseCode": "CYCLING2023",
+				"courseName": "Cycling - Mental Comfort",
+				"packagesAvailable": 3,
+				"packageList": [
+					{
+						"packageName": "Basic",
+						"price": 16.48,
+						"duration": 1
+					},
+					{
+						"packageName": "Advanced",
+						"price": 24.73,
+						"duration": 1
+					},
+					{
+						"packageName": "Professional",
+						"price": 37.09,
+						"duration": 1
+					}
+				]
+			}
+		],
+		"coachesAvailable": 1,
+		"coachList": [
+			{
+				"coachName": "Jason Crandell",
+				"coachableCourse": [
+					"CYCLING2023"
+				],
+				"yearsOfExperience": 15,
+				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
+			}
+		],
+		"imageCourse": "/src/assets/images/blog/blog3.jpg",
+		"imageCoach": "/src/assets/images/blog/blog2.jpg"
+	},
+
+	{
+		"className": "HIIT",
+		"coursesAvailable": 1,
+		"courseList": [
+			{
+				"courseCode": "HIIT2023",
+				"courseName": "HIIT - Mental Comfort",
+				"packagesAvailable": 3,
+				"packageList": [
+					{
+						"packageName": "Basic",
+						"price": 16.48,
+						"duration": 1
+					},
+					{
+						"packageName": "Advanced",
+						"price": 24.73,
+						"duration": 1
+					},
+					{
+						"packageName": "Professional",
+						"price": 37.09,
+						"duration": 1
+					}
+				]
+			}
+		],
+		"coachesAvailable": 1,
+		"coachList": [
+			{
+				"coachName": "Jason Crandell",
+				"coachableCourse": [
+					"HIIT2023"
+				],
+				"yearsOfExperience": 15,
+				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
 			}
 		],
 		"imageCourse": "/src/assets/images/blog/blog3.jpg",

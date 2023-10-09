@@ -156,6 +156,13 @@ float: right;
 	color: #e6fe58;
 	background-color: transparent;
 }
+
+.button
+> a {
+	text-decoration: none;
+	color: #e6fe58;
+}
+
 .button:hover{
 	
 	color:#e6fe58;
@@ -181,4 +188,19 @@ float: right;
 	.card {
 			width: 100%;
 	}
+}
+
+.intro4-before
+> div
+> .join-button {
+	background-color: var(--main-color-e6fe58);
+	border: none;
+	color: black;
+	font-weight: bold;
+}
+
+.intro4-before
+> div
+> .join-button:hover {
+	background-color: white;
 }

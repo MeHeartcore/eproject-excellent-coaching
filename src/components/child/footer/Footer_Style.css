@@ -5,7 +5,7 @@
 	background-color: var(--main-color-ffffff);
 	height: 175px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
@@ -14,8 +14,8 @@
 > .row
 > #brand-logo-wrapper
 > div {
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 9%;
+	height: 41%;
 }
 
 .footer-container
@@ -24,8 +24,8 @@
 > #brand-logo-wrapper
 > div
 > img {
-	width: auto;
-	height: 65px;
+	width: 100%;
+	height: 100%;
 }
 
 .footer-container
@@ -35,7 +35,18 @@
 	background-color: var(--main-color-000000);
 	height: 175px;
 	display: flex;
-	justify-content: space-around;
+	/* justify-content: space-around;
+	align-items: center; */
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-logo {
+	width: 30%;
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -43,10 +54,11 @@
 > .container-fluid
 > .row
 > #outtro-wrapper
-> div
+> #outtro-logo
 > img {
-	width: auto;
-	height: 125px;
+	width: 60%;
+	height: 60%;
+	/* background-color: yellow; */
 }
 
 .footer-container
@@ -54,24 +66,9 @@
 > .row
 > #outtro-wrapper
 > #outtro-content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: space-around;
-	width: 800px;
-	height: 125px;
-}
-
-.footer-container
-> .container-fluid
-> .row
-> #outtro-wrapper
-> #outtro-content
-> div {
-	width: 500px;
-	height: 50px;
-	color: var(--main-color-ffffff);
-	font-size: 12px;
+	width: 70%;
+	height: 100%;
+	/* background-color: blue; */
 }
 
 .footer-container
@@ -80,10 +77,10 @@
 > #outtro-wrapper
 > #outtro-content
 > #information-group {
+	height: 60%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	width: 700px;
 }
 
 .footer-container
@@ -92,12 +89,11 @@
 > #outtro-wrapper
 > #outtro-content
 > #information-group
-> div
-> img {
-	width: auto;
-	height: 35px;
-	margin-left: 5px;
-	margin-right: 5px;
+> div {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .footer-container
@@ -109,9 +105,8 @@
 > div
 > a {
 	text-decoration: none;
-	color: var(--main-color-ffffff);
+	color: var(--main-color-e6fe58);
 	font-weight: bold;
-	font-size: 16px;
 }
 
 .footer-container
@@ -122,12 +117,34 @@
 > #information-group
 > div
 > a:hover {
-	text-decoration: none;
-	color: var(--main-color-e6fe58);
+	color: white;
 	font-weight: bold;
-	font-size: 16px;
 }
 
-#hidden-space {
-	visibility: hidden;
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> img {
+	height: 35%;
+	width: 35%;
 }
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #copyright {
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+}
+

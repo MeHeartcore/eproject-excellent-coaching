@@ -1,5 +1,4 @@
-import Header from "../child/header/Header.jsx";
-// import First from "../child/gallery/First.jsx";
+import Navigation from "../child/navigation_bar/Navigation_Bar.jsx"
 import Second from "../child/gallery/Second.jsx";
 import Footer from "../child/footer/Footer.jsx";
 
@@ -8,7 +7,7 @@ const Gallery = () => {
   return (
     <div className="App_gallery">
       {/* <First /> */}
-			<Header />
+			<Navigation />
       <Second />
 			<Footer />
     </div>

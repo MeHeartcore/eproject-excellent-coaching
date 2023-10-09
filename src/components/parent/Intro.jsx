@@ -1,4 +1,4 @@
-import Header from "../child/header/Header.jsx";
+import NavigationBar from "../child/navigation_bar/Navigation_Bar.jsx";
 import First from "../child/intro/First.jsx";
 import Second from "../child/intro/Second.jsx";
 import Third from "../child/intro/Third.jsx";
@@ -9,7 +9,7 @@ import Footer from "../child/footer/Footer.jsx"
 const Intro = () => {
   return (
     <div>
-			<Header/>
+			<NavigationBar/>
       <First/>
       <Second/>
       <Third/>

@@ -1,4 +1,4 @@
-.header-container
+/* .header-container
 > .container-fluid
 > .row
 > .col
@@ -9,5 +9,27 @@
 	background-position: center center;
 	width: 100%;
 	height: 615px;
+}
+ */
+
+.d-block {
+	height: 575px;
+}
+
+.caption
+> h3 {
+	font-weight: bold;
+	font-size: 66px;
+	color: var(--main-color-e6fe58);
+}
+
+.caption
+> p {
+	background-color: black;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 24px;
+	font-style: italic;
 }
 

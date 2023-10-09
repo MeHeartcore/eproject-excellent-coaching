@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 const Intro5 = () => {
     return (
@@ -10,7 +11,8 @@ const Intro5 = () => {
             <div className='hero-inner5'>
             <div className='order'>
                 <h1>YOUR VALUES ARE RECEIVED!</h1>
-                <Button variant="outline-light">Book A Class</Button>{' '}
+                <Button as={Link}
+											to="/class" variant="outline-light">Book A Class</Button>{' '}
                 </div>
                 <br></br>
 

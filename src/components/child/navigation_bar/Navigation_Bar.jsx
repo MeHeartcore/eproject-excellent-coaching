@@ -12,7 +12,7 @@ function NavigationBar() {
 	return (
 		<div className="navigation-bar-container">
 			{/* < expand="lg" className="navigation-bar-wrapper"> */}
-			<Navbar className="navigation-bar-wrapper">
+			<Navbar className="navigation-bar-wrapper" expand="lg">
 				<div>
 					<Navbar.Brand
 						as={Link}
@@ -42,12 +42,22 @@ function NavigationBar() {
 								<div className="hover-content">
 									<Nav.Link
 										as={Link}
-										to="/course"
+										to="/yoga"
 									>
-										COURSE 1
+										YOGA
 									</Nav.Link>
-									<Nav.Link>COURSE 2</Nav.Link>
-									<Nav.Link>COURSE 3</Nav.Link>
+									<Nav.Link
+										as={Link}
+										to="/gym">GYM</Nav.Link>
+									<Nav.Link
+										as={Link}
+										to="/zumba">ZUMBA</Nav.Link>
+									<Nav.Link
+										as={Link}
+										to="/cycling">CYCLING</Nav.Link>
+									<Nav.Link
+										as={Link}
+										to="/hiit">HIIT</Nav.Link>
 								</div>
 							</div>
 							<div className="hover-link">
@@ -83,7 +93,7 @@ function NavigationBar() {
 						</Nav>
 					</Navbar.Collapse>
 				</div>
-				{/* <div><Navbar.Toggle aria-controls="basic-navbar-nav" /></div> */}
+				<div id="navigation-bar-control"><Navbar.Toggle aria-controls="basic-navbar-nav" /></div>
 			</Navbar>
 		</div>
 	)

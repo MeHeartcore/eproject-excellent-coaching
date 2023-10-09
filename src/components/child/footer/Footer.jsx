@@ -28,7 +28,7 @@ function Footer() {
 				</Row>
 				<Row className="gx-0">
 					<Col id="outtro-wrapper">
-						<div>
+						<div id="outtro-logo">
 							<img src={Logo} alt="logo"/>
 						</div>
 						<div id="outtro-content">
@@ -44,8 +44,7 @@ function Footer() {
 									<img src={SocialNetworkLogo} alt="social-network-logo"/>
 								</div>
 							</div>
-							<div>
-								<div id="hidden-space">HIDDEN</div>
+							<div id="copyright">
 								© 2023 All Rights Reserved.
 							</div>
 						</div>

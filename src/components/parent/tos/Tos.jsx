@@ -1,6 +1,6 @@
 import {Container} from "react-bootstrap"
 
-import Header from "../../child/header/Header.jsx"
+import Navigation from "../../child/navigation_bar/Navigation_Bar.jsx"
 import Footer from "../../child/footer/Footer.jsx"
 
 import "./Tos_Style.css"
@@ -8,7 +8,7 @@ import "./Tos_Style.css"
 function Tos() {
 	return (
 		<div>
-			<Header/>
+			<Navigation/>
 			<div>
 				<Container >
 					<div className="all-tos">

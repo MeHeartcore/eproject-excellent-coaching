@@ -94,3 +94,33 @@
 	text-align: center;
 	font-style: italic;
 }
+
+#navigation-bar-control {
+	display: none;
+}
+
+@media only screen and (max-width: 992px) {
+	#navigation-bar-control {
+		display: block;
+	}
+
+	#navigation-bar-collapse {
+		background-color: black;
+		position: absolute;
+		top: 65px;
+		right: 0px;
+	}
+
+	.navigation-bar-container
+	> .navigation-bar-wrapper
+	> div
+	> #navigation-bar-collapse
+	> .navigation-bar-content
+	> .hover-link
+	> .hover-content {
+		background-color: black;
+		position: absolute;
+		top: 42%;
+		right: 100%;
+	}
+}

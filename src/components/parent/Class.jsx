@@ -5,7 +5,8 @@ import {
 	Button
 } from "react-bootstrap"
 
-// import Navigation from "../child/navigation_bar/Navigation_Bar.jsx"
+import Navigation from "../child/navigation_bar/Navigation_Bar.jsx"
+import Footer from "../child/footer/Footer.jsx"
 
 import Cycling from "../../assets/images/class_course/cycling.png"
 import Gym from "../../assets/images/class_course/gym.png"
@@ -13,19 +14,21 @@ import Yoga from "../../assets/images/class_course/yoga.png"
 import Zumba from "../../assets/images/class_course/zumba.png"
 import Demo from "../../assets/images/gallery/11.jpg"
 
+
 import "../child/class_course/Class.css"
+import { Link } from "react-router-dom"
 
 function Class() {
 	return (
 		<div className="class-container">
 			<Container fluid className="gx-0">
-				{/* <Row className="gx-0">
+				<Row className="gx-0">
 					<Col>
 						<div>
 							<Navigation />
 						</div>
 					</Col>
-				</Row> */}
+				</Row>
 				<Row className="gx-0">
 					<Col id="class-intro-image">
 						<div>
@@ -65,7 +68,10 @@ function Class() {
 									</h3>
 									<div>
 										<img src={Cycling} alt="cycling" />
-										<div><Button className="interested-course-button">Join now</Button></div>
+										<div><Button
+											as={Link}
+											to="/cycling"
+											className="interested-course-button">Join now</Button></div>
 									</div>
 								</div>
 								<div>
@@ -76,7 +82,10 @@ function Class() {
 									</h3>
 									<div>
 										<img src={Gym} alt="gym" />
-										<div><Button className="interested-course-button">Join now</Button></div>
+										<div><Button
+											as={Link}
+											to="/gym"
+											className="interested-course-button">Join now</Button></div>
 									</div>
 								</div>
 							</div>
@@ -91,7 +100,10 @@ function Class() {
 									</h3>
 									<div>
 										<img src={Yoga} alt="yoga" />
-										<div><Button className="interested-course-button">Join now</Button></div>
+										<div><Button
+											as={Link}
+											to="/yoga"
+											className="interested-course-button">Join now</Button></div>
 									</div>
 								</div>
 								<div>
@@ -104,7 +116,10 @@ function Class() {
 									</h3>
 									<div>
 										<img src={Zumba} alt="zumba" />
-										<div><Button className="interested-course-button">Join now</Button></div>
+										<div><Button
+											as={Link}
+											to="/zumba"
+											className="interested-course-button">Join now</Button></div>
 									</div>
 								</div>
 							</div>
@@ -123,33 +138,39 @@ function Class() {
 						<div id="course-list-content">
 							<div>
 								<img src={Demo} alt="demo" />
-								<Button className="course-button">GYM</Button>
-								<p>Members: 0</p>
+								<Button as={Link}
+											to="/gym" className="course-button">GYM</Button>
+								<p>Members: 50+</p>
 							</div>
 							<div>
 								<img src={Demo} alt="demo" />
-								<Button className="course-button">YOGA</Button>
-								<p>Members: 0</p>
+								<Button as={Link}
+											to="/yoga" className="course-button">YOGA</Button>
+								<p>Members: 60+</p>
 							</div>
 							<div>
 								<img src={Demo} alt="demo" />
-								<Button className="course-button">ZUMBA</Button>
-								<p>Members: 0</p>
+								<Button as={Link}
+											to="/zumba" className="course-button">ZUMBA</Button>
+								<p>Members: 20+</p>
 							</div>
 							<div>
 								<img src={Demo} alt="demo" />
-								<Button className="course-button">CYCLING</Button>
-								<p>Members: 0</p>
+								<Button as={Link}
+											to="/cycling" className="course-button">CYCLING</Button>
+								<p>Members: 30+</p>
 							</div>
 							<div>
 								<img src={Demo} alt="demo" />
-								<Button className="course-button">HIIT</Button>
-								<p>Members: 0</p>
+								<Button as={Link}
+											to="/hiit" className="course-button">HIIT</Button>
+								<p>Members: 20+</p>
 							</div>
 						</div>
 					</Col>
 				</Row>
 			</Container>
+			<Footer/>
 		</div>
 	)
 }

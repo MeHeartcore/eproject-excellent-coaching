@@ -1,6 +1,8 @@
 import Card from "react-bootstrap/Card";
 import "./Style.css";
 import Gyms from "../../../assets/images/blog/blog7.png";
+import { Link } from "react-router-dom";
+
 
 function Second() {
 	return (
@@ -25,7 +27,7 @@ function Second() {
 					<Card style={{ width: "20rem" }} className="Card">
 						<Card.Img variant="top" src={Gyms} />
 						<Card.Body>
-							<Card.Title className="card-name">Gyms</Card.Title>
+							<Card.Title className="card-name">GYM</Card.Title>
 							<Card.Text>
 								Gym training is a transformative experience that strengthens
 								the body, boosts energy levels, enhances overall fitness, and
@@ -33,7 +35,7 @@ function Second() {
 								and wellness goals
 							</Card.Text>
 							<div className="button">
-								Read More <i className="fa-solid fa-arrow-right"></i>
+								<Link to="/gym">Read More <i className="fa-solid fa-arrow-right"></i></Link>
 							</div>
 						</Card.Body>
 					</Card>
@@ -43,7 +45,7 @@ function Second() {
 					<Card style={{ width: "20rem" }} className="Card">
 						<Card.Img variant="top" src={Gyms} />
 						<Card.Body>
-							<Card.Title className="card-name" >Gyms</Card.Title>
+							<Card.Title className="card-name" >YOGA</Card.Title>
 							<Card.Text>
 								Gym training is a transformative experience that strengthens
 								the body, boosts energy levels, enhances overall fitness, and
@@ -51,7 +53,7 @@ function Second() {
 								and wellness goals
 							</Card.Text>
 							<div className="button">
-								Read More <i className="fa-solid fa-arrow-right"></i>
+								<Link to="/yoga">Read More <i className="fa-solid fa-arrow-right"></i></Link>
 							</div>
 						</Card.Body>
 					</Card>
@@ -60,7 +62,7 @@ function Second() {
 					<Card style={{ width: "20rem" }} className="Card">
 						<Card.Img variant="top" src={Gyms} />
 						<Card.Body>
-							<Card.Title className="card-name" >Gyms</Card.Title>
+							<Card.Title className="card-name" >HIIT</Card.Title>
 							<Card.Text>
 								Gym training is a transformative experience that strengthens
 								the body, boosts energy levels, enhances overall fitness, and
@@ -68,7 +70,7 @@ function Second() {
 								and wellness goals
 							</Card.Text>
 							<div className="button">
-								Read More <i className="fa-solid fa-arrow-right"></i>
+								<Link to="/hiit">Read More <i className="fa-solid fa-arrow-right"></i></Link>
 							</div>
 						</Card.Body>
 					</Card>
