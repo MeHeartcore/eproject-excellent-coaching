@@ -5,7 +5,9 @@ import BrandLogo1 from "../../../assets/images/footer/puma_logo.png"
 import BrandLogo2 from "../../../assets/images/footer/adidas_logo.png"
 import BrandLogo3 from "../../../assets/images/footer/allmax_logo.png"
 import Logo from "../../../assets/images/header/logo_edited.png"
-import SocialNetworkLogo from "../../../assets/images/footer/facebook_icon_1.png"
+import FaceebookLogo from "../../../assets/images/footer/facebook_icon_1.png"
+import TwitterLogo from "../../../assets/images/footer/icons8-twitter-100.png"
+import InstagramLogo from "../../../assets/images/footer/icons8-instagram-100.png"
 
 import "./Footer_Style.css"
 
@@ -39,9 +41,9 @@ function Footer() {
 									<Link to="/privacy">Privacy Policy</Link>
 								</div>
 								<div>
-									<img src={SocialNetworkLogo} alt="social-network-logo"/>
-									<img src={SocialNetworkLogo} alt="social-network-logo"/>
-									<img src={SocialNetworkLogo} alt="social-network-logo"/>
+									<img src={FaceebookLogo} alt="social-network-logo"/>
+									<img src={TwitterLogo} alt="social-network-logo"/>
+									<img src={InstagramLogo} alt="social-network-logo"/>
 								</div>
 							</div>
 							<div id="copyright">

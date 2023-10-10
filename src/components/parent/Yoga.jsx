@@ -4,7 +4,7 @@ import NavigationBar from "../child/navigation_bar/Navigation_Bar.jsx"
 import CourseData from "../../data/course.json"
 import Footer from "../child/footer/Footer"
 
-import DownloadData from "../../assets/files/text.txt"
+import DownloadData from "../../assets/files/information.pdf"
 import CourseImage from "../../assets/images/blog/blog3.jpg"
 import CoachImage from "../../assets/images/blog/blog2.jpg"
 

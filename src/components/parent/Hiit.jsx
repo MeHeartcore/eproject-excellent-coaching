@@ -4,7 +4,9 @@ import NavigationBar from "../child/navigation_bar/Navigation_Bar.jsx"
 import CourseData from "../../data/course.json"
 import Footer from "../child/footer/Footer"
 
-import DownloadData from "../../assets/files/text.txt"
+import DownloadData from "../../assets/files/information.pdf"
+import CourseImage from "../../assets/images/blog/blog3.jpg"
+import CoachImage from "../../assets/images/blog/blog2.jpg"
 
 import "../child/class_course/Course.css"
 
@@ -35,7 +37,7 @@ function Hiit() {
 						</div>
 						<div className="course-detail">
 							<div className="course-image">
-								<img src={CourseData[4].imageCourse} alt="course" />
+								<img src={CourseImage} alt="course" />
 							</div>
 							<div className="course-description">
 								<div className="course-description-A">{CourseData[4].courseList[0].courseName}</div>
@@ -91,7 +93,7 @@ function Hiit() {
 							</div>
 						</div>
 						<div className="trainer-image">
-							<img src={CourseData[4].imageCoach} alt="coach" />
+							<img src={CoachImage} alt="coach" />
 						</div>
 					</Col>
 				</Row>
