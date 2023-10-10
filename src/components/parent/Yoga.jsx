@@ -5,6 +5,8 @@ import CourseData from "../../data/course.json"
 import Footer from "../child/footer/Footer"
 
 import DownloadData from "../../assets/files/text.txt"
+import CourseImage from "../../assets/images/blog/blog3.jpg"
+import CoachImage from "../../assets/images/blog/blog2.jpg"
 
 import "../child/class_course/Course.css"
 
@@ -35,7 +37,7 @@ function Yoga() {
 						</div>
 						<div className="course-detail">
 							<div className="course-image">
-								<img src={CourseData[0].imageCourse} alt="course" />
+								<img src={CourseImage} alt="course" />
 							</div>
 							<div className="course-description">
 								<div className="course-description-A">{CourseData[0].courseList[0].courseName}</div>
@@ -91,7 +93,7 @@ function Yoga() {
 							</div>
 						</div>
 						<div className="trainer-image">
-							<img src={CourseData[0].imageCoach} alt="coach" />
+							<img src={CoachImage} alt="coach" />
 						</div>
 					</Col>
 				</Row>

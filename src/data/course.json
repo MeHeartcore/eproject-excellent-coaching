@@ -36,9 +36,7 @@
 				"yearsOfExperience": 15,
 				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
 			}
-		],
-		"imageCourse": "../assets/images/blog/blog3.jpg",
-		"imageCoach": "../assets/images/blog/blog2.jpg"
+		]
 	},
 	{
 		"className": "Gym",
@@ -72,9 +70,7 @@
 				"yearsOfExperience": 10,
 				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
 			}
-		],
-		"imageCourse": "../assets/images/blog/blog3.jpg",
-		"imageCoach": "../assets/images/blog/blog2.jpg"
+		]
 	},
 
 	{
@@ -129,9 +125,7 @@
 				"yearsOfExperience": 0,
 				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
 			}
-		],
-		"imageCourse": "../assets/images/blog/blog3.jpg",
-		"imageCoach": "../assets/images/blog/blog2.jpg"
+		]
 	},
 
 	{
@@ -171,9 +165,7 @@
 				"yearsOfExperience": 15,
 				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
 			}
-		],
-		"imageCourse": "../assets/images/blog/blog3.jpg",
-		"imageCoach": "../assets/images/blog/blog2.jpg"
+		]
 	},
 
 	{
@@ -213,8 +205,6 @@
 				"yearsOfExperience": 15,
 				"describeAchievements": "Her effective training methods and thoughtfulness have made her famous"
 			}
-		],
-		"imageCourse": "../assets/images/blog/blog3.jpg",
-		"imageCoach": "../assets/images/blog/blog2.jpg"
+		]
 	}
 ]
