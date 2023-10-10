@@ -5,8 +5,8 @@ import CourseData from "../../data/course.json"
 import Footer from "../child/footer/Footer"
 
 import DownloadData from "../../assets/files/information.pdf"
-import CourseImage from "../../assets/images/blog/blog3.jpg"
-import CoachImage from "../../assets/images/blog/blog2.jpg"
+import CourseImage from "../../assets/images/blog/blog6.png"
+import CoachImage from "../../assets/images/blog/blog2.png"
 
 import "../child/class_course/Course.css"
 
@@ -64,7 +64,7 @@ function Gym() {
 											className="download-button"
 											as={Link}
 											to={DownloadData}
-											download="text"
+											download="information-course"
 											target="_blank"
 											rel="noreferrer">Learn more</Button>
 									</div>

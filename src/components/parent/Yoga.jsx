@@ -71,7 +71,7 @@ function Yoga() {
 											className="download-button"
 											as={Link}
 											to={DownloadData}
-											download="text"
+											download="information-course"
 											target="_blank"
 											rel="noreferrer">Learn more</Button>
 									</div>

@@ -1,6 +1,9 @@
 import Card from "react-bootstrap/Card";
 import "./Style.css";
 import Gyms from "../../../assets/images/blog/blog7.png";
+import Yoga from "../../../assets/images/about_us/yoga.jpg"
+import Zumba from "../../../assets/images/about_us/zumba.jpg"
+
 import { Link } from "react-router-dom";
 
 
@@ -43,7 +46,7 @@ function Second() {
 				</div>
 				<div>
 					<Card style={{ width: "20rem" }} className="Card">
-						<Card.Img variant="top" src={Gyms} />
+						<Card.Img variant="top" src={Yoga} />
 						<Card.Body>
 							<Card.Title className="card-name" >YOGA</Card.Title>
 							<Card.Text>
@@ -60,9 +63,9 @@ function Second() {
 				</div>
 				<div>
 					<Card style={{ width: "20rem" }} className="Card">
-						<Card.Img variant="top" src={Gyms} />
+						<Card.Img variant="top" src={Zumba} />
 						<Card.Body>
-							<Card.Title className="card-name" >HIIT</Card.Title>
+							<Card.Title className="card-name" >Zumba</Card.Title>
 							<Card.Text>
 								Gym training is a transformative experience that strengthens
 								the body, boosts energy levels, enhances overall fitness, and
@@ -70,7 +73,7 @@ function Second() {
 								and wellness goals
 							</Card.Text>
 							<div className="button">
-								<Link to="/hiit">Read More <i className="fa-solid fa-arrow-right"></i></Link>
+								<Link to="/zumba">Read More <i className="fa-solid fa-arrow-right"></i></Link>
 							</div>
 						</Card.Body>
 					</Card>

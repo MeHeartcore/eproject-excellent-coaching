@@ -12,7 +12,13 @@ import Cycling from "../../assets/images/class_course/cycling.png"
 import Gym from "../../assets/images/class_course/gym.png"
 import Yoga from "../../assets/images/class_course/yoga.png"
 import Zumba from "../../assets/images/class_course/zumba.png"
-import Demo from "../../assets/images/gallery/11.jpg"
+// import Demo from "../../assets/images/gallery/11.jpg"
+
+import GymCourse from "../../assets/images/blog/blog6.png"
+import YogaCourse from "../../assets/images/blog/blog3.jpg"
+import ZumbaCourse from "../../assets/images/blog/blog4.png"
+import CyclingCourse from "../../assets/images/blog/cycling-course.jpg"
+import HiitCourse from "../../assets/images/blog/hiit-course.jpg"
 
 
 import "../child/class_course/Class.css"
@@ -47,10 +53,10 @@ function Class() {
 							<h2>Enthusiasm</h2>
 							<div>
 								<p>
-								With the large participation of students, we always aim for simple, effective exercises with enthusiastic guidance from coaches.
+									With the large participation of students, we always aim for simple, effective exercises with enthusiastic guidance from coaches.
 								</p>
 								<p>
-								As time passes, students pay special attention to each course that they are most interested in and enjoy today:
+									As time passes, students pay special attention to each course that they are most interested in and enjoy today:
 								</p>
 							</div>
 						</div>
@@ -137,40 +143,40 @@ function Class() {
 						</div>
 						<div id="course-list-content">
 							<div>
-								<img src={Demo} alt="demo" />
+								<img src={GymCourse} alt="demo" />
 								<Button as={Link}
-											to="/gym" className="course-button">GYM</Button>
+									to="/gym" className="course-button">GYM</Button>
 								<p>Members: 50+</p>
 							</div>
 							<div>
-								<img src={Demo} alt="demo" />
+								<img src={YogaCourse} alt="demo" />
 								<Button as={Link}
-											to="/yoga" className="course-button">YOGA</Button>
+									to="/yoga" className="course-button">YOGA</Button>
 								<p>Members: 60+</p>
 							</div>
 							<div>
-								<img src={Demo} alt="demo" />
+								<img src={ZumbaCourse} alt="demo" />
 								<Button as={Link}
-											to="/zumba" className="course-button">ZUMBA</Button>
+									to="/zumba" className="course-button">ZUMBA</Button>
 								<p>Members: 20+</p>
 							</div>
 							<div>
-								<img src={Demo} alt="demo" />
+								<img src={CyclingCourse} alt="demo" />
 								<Button as={Link}
-											to="/cycling" className="course-button">CYCLING</Button>
+									to="/cycling" className="course-button">CYCLING</Button>
 								<p>Members: 30+</p>
 							</div>
 							<div>
-								<img src={Demo} alt="demo" />
+								<img src={HiitCourse} alt="demo" />
 								<Button as={Link}
-											to="/hiit" className="course-button">HIIT</Button>
+									to="/hiit" className="course-button">HIIT</Button>
 								<p>Members: 20+</p>
 							</div>
 						</div>
 					</Col>
 				</Row>
 			</Container>
-			<Footer/>
+			<Footer />
 		</div>
 	)
 }
