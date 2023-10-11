@@ -1,7 +1,8 @@
 import "./Style.css"
 import Before from "../../../assets/images/header/result.jpg"
 
-import { Form, Button } from "react-bootstrap"
+import { Button } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
 // import { Button } from "react-bootstrap";
 function First() {
@@ -28,7 +29,7 @@ function First() {
 					</Form> */}
 					<Button
 						as={Link}
-						to="/join"
+						to="join"
 						className="join-button">
 						Join now
 					</Button>

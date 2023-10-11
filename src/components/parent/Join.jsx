@@ -1,7 +1,7 @@
 import { Container, Row, Col, Form } from "react-bootstrap"
 import Navigation from "../child/navigation_bar/Navigation_Bar.jsx"
 import Footer from "../child/footer/Footer.jsx"
-
+import { Route, BrowserRouter } from "react-router-dom"
 import "./Demo.css"
 
 function Join() {
@@ -10,7 +10,12 @@ function Join() {
 	}
 
 	return (
+		
+
 		<div className="join-container">
+			{/* <BrowserRouter>
+				<Route path="join" element={<Join/>}/>
+			</BrowserRouter> */}
 			<Container fluid className="gx-0">
 				<Row className="gx-0">
 					<Col>
