@@ -1,8 +1,9 @@
 import { Form } from "react-bootstrap"
 
 function FormContact() {
-	function displaySendSuccess() {
-		alert("SUCCESS")
+	function displaySendSuccess(event) {
+		event.preventDefault()
+		alert("Thank you for contacting us!")
 	}
 
 

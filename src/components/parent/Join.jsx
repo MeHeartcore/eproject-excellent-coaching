@@ -7,7 +7,7 @@ import "./Demo.css"
 function Join() {
 	function joinCourse(event) {
 		event.preventDefault()
-		alert("Join Course")
+		alert("Thank you for joining our course!")
 	}
 
 	return (
@@ -77,9 +77,9 @@ function Join() {
 										<input className="register-button" type="submit" value="Register" onClick={joinCourse}/>
 									</div>
 
-									<div id="displayJoinSucces">
+									{/* <div id="displayJoinSucces">
 										Thank you for joining our course!
-									</div>
+									</div> */}
 								</div>
 							</Form>
 						</div>
