@@ -2,6 +2,7 @@ import "./Style.css"
 import Before from "../../../assets/images/header/result.jpg"
 
 import { Form, Button } from "react-bootstrap"
+import { Link } from "react-router-dom";
 // import { Button } from "react-bootstrap";
 function First() {
 	return (
@@ -19,13 +20,16 @@ function First() {
 						youll witness positive changes in your physique, confidence, discipline, and overall well-being, unlocking the potential to become a better version of yourself</p>
 				</div>
 				<div>
-					<Form>
+					{/* <Form>
 
 						<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
 							<Form.Control type="email" placeholder="Enter your email..." />
 						</Form.Group>
-					</Form>
-					<Button className="join-button">
+					</Form> */}
+					<Button
+						as={Link}
+						to="/join"
+						className="join-button">
 						Join now
 					</Button>
 				</div>

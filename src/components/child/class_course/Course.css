@@ -401,3 +401,54 @@
 		font-style: italic;	
 	}
 }
+
+.course-container
+> .container-fluid
+> .row
+> .available-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.course-container
+> .container-fluid
+> .row
+> .available-wrapper
+.available-room {
+	width: 300px;
+	max-width: 300px;
+}
+
+.course-container
+> .container-fluid
+> .row
+> .available-wrapper
+.available-room
+> label {
+	font-size: 24px;
+}
+
+.course-container
+> .container-fluid
+> .row
+> .available-wrapper
+.available-room
+> .join-now-button {
+	width: 100px;
+	max-width: 100px;
+	font-weight: bold;
+	background-color: var(--main-color-e6fe58);
+	border-radius: 15px;
+	color: black;
+	border: none;
+}
+
+.course-container
+> .container-fluid
+> .row
+> .available-wrapper
+.available-room
+> .join-now-button:hover {
+	background-color: black;
+	color: white;
+}

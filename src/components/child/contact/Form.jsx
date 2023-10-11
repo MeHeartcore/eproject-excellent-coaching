@@ -1,6 +1,11 @@
 import { Form } from "react-bootstrap"
 
 function FormContact() {
+	function displaySendSuccess() {
+		alert("SUCCESS")
+	}
+
+
 	return (
 		<div className="form-contact-container">
 			<Form className="form-contact-wrapper">
@@ -27,6 +32,7 @@ function FormContact() {
 						<Form.Label>Comment</Form.Label>
 						<Form.Control className="comment-area" as="textarea" rows={3} placeholder="Add some comment here..." />
 					</Form.Group>
+					<input className="send-button" type="submit" value="Send" onClick={displaySendSuccess} />
 				</div>
 			</Form>
 		</div>

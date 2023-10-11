@@ -60,3 +60,7 @@
 	font-style: italic;
 	font-size: 14px;
 }
+
+.send-button{
+	background-color: var(--main-color-e6fe58);
+}

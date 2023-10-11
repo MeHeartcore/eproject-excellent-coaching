@@ -97,6 +97,27 @@ function Cycling() {
 						</div>
 					</Col>
 				</Row>
+				<Row className="gx-0">
+					<Col className="available-wrapper">
+						<div className="available-room">
+							<br />
+							<label htmlFor="">Available room:</label>
+							<br />
+							<select name="" id="">
+								<option value="addr1">218 Produce Row, San Antonio, Texas, US</option>
+								<option value="addr2">200 E Main St, Humble, Texas, US</option>
+								<option value="addr1">213 Produce Row, San Antonio, Texas, US</option>
+								<option value="addr2">199 E Main St, Humble, Texas, US</option>
+								<option value="addr1">33 Andrea, San Antonio, Texas, US</option>
+								<option value="addr2">345 E Main St, Ellos, Texas, US</option>
+							</select>
+							<br />
+							<br/>
+							<Button
+								as={Link} to="/join" className="join-now-button">Join now</Button>
+						</div>
+					</Col>
+				</Row>
 			</Container>
 			<Footer />
 		</div>

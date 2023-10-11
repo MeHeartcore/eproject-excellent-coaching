@@ -14,6 +14,7 @@ import Blog from "./components/parent/Blog.jsx"
 import Contact from "./components/parent/Contact.jsx"
 import Tos from "./components/parent/tos/Tos.jsx"
 import Privacy from "./components/parent/privacy/Privacy.jsx"
+import Join from "./components/parent/Join.jsx"
 
 import "./App.css"
 
@@ -24,6 +25,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home/>}/>
 					<Route index element={<Home/>}/>
+						<Route path="join" element={<Join/>}/>
 					<Route path="intro" element={<Intro/>}/>
 					<Route path="class" element={<Class/>}/>
 						<Route path="yoga" element={<Yoga/>}/>
