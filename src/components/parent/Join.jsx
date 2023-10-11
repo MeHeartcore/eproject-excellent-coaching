@@ -1,12 +1,13 @@
 import { Container, Row, Col, Form } from "react-bootstrap"
 import Navigation from "../child/navigation_bar/Navigation_Bar.jsx"
 import Footer from "../child/footer/Footer.jsx"
-import { Route, BrowserRouter } from "react-router-dom"
+
 import "./Demo.css"
 
 function Join() {
-	function joinCourse() {
-		alert("Thank you for joining our course!")
+	function joinCourse(event) {
+		event.preventDefault()
+		alert("Join Course")
 	}
 
 	return (
@@ -74,6 +75,10 @@ function Join() {
 									<div>
 										<br />
 										<input className="register-button" type="submit" value="Register" onClick={joinCourse}/>
+									</div>
+
+									<div id="displayJoinSucces">
+										Thank you for joining our course!
 									</div>
 								</div>
 							</Form>
