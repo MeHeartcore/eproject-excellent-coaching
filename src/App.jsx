@@ -1,4 +1,5 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom"
+import { useLayoutEffect } from 'react'
 
 import Home from "./components/parent/Home.jsx"
 import Intro from "./components/parent/Intro.jsx"
@@ -18,10 +19,19 @@ import Join from "./components/parent/Join.jsx"
 
 import "./App.css"
 
+const Wrapper = ({children}) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children
+} 
+
 function App() {
   return (
     <div>
       <BrowserRouter>
+			<Wrapper/>
 				<Routes>
 					<Route path="/" element={<Home/>}/>
 					<Route index element={<Home/>}/>

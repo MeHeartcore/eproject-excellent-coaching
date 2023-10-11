@@ -141,6 +141,7 @@
 > #copyright {
 	height: 40%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	font-size: 14px;
@@ -148,3 +149,7 @@
 	color: white;
 }
 
+.custom-address {
+	font-style: normal;
+	font-weight: bold;
+}

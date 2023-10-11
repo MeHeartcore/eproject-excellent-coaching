@@ -47,7 +47,8 @@ function Footer() {
 								</div>
 							</div>
 							<div id="copyright">
-								© 2023 All Rights Reserved.
+								<p><span className="custom-address">REPRESENTATIVE OFFICE:</span> 218 Produce Row, San Antonio, Texas, US.</p>
+								<p>© 2023 All Rights Reserved.</p>
 							</div>
 						</div>
 					</Col>
