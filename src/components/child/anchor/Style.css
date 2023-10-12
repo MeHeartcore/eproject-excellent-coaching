@@ -1,0 +1,9 @@
+#mo-neo {
+	background-image: url("../../../assets/images/mo-neo/icons8-arrow-up-100-30.png");
+	width: 29px;
+	height: 29px;
+	position: fixed;
+	right: 2.5%;
+	bottom: 5%;
+	z-index: 5;
+}

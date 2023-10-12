@@ -120,3 +120,173 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
+
+.card-story {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	height: 25px;
+	border: none;
+}
+
+.card-story
+> img {
+	display: block;
+}
+
+#card-story-1, #card-story-2, #card-story-3 {
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	background-color: var(--main-color-e6fe58);
+	width: 100%;
+	height: 500px;
+	z-index: 1;
+}
+
+#card-story-1
+> div,
+#card-story-2
+> div,
+#card-story-3
+> div {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+#card-story-1
+> div
+> div,
+#card-story-2
+> div
+> div,
+#card-story-3
+> div
+> div {
+	width: 50%;
+	height: 95%;
+	background-color: white;
+}
+
+#card-story-1
+> div
+> .card-story-img
+> img,
+#card-story-2
+> div
+> .card-story-img
+> img,
+#card-story-3
+> div
+> .card-story-img
+> img {
+	width: 100%;
+	height: 100%;
+}
+
+#card-story-1
+> div
+> .card-story-content,
+#card-story-2
+> div
+> .card-story-content,
+#card-story-3
+> div
+> .card-story-content {
+	padding: 2%;
+}
+
+#card-story-1
+> div
+> .card-story-content
+> h3,
+#card-story-2
+> div
+> .card-story-content
+> h3,
+#card-story-3
+> div
+> .card-story-content
+> h3 {
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+#card-story-1
+> div
+> .card-story-content
+> p,
+#card-story-2
+> div
+> .card-story-content
+> p,
+#card-story-3
+> div
+> .card-story-content
+> p {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#card-story-1
+> div
+> .card-story-content
+> div,
+#card-story-2
+> div
+> .card-story-content
+> div,
+#card-story-3
+> div
+> .card-story-content
+> div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#card-story-1
+> div
+> .card-story-content
+> div
+> .hide-story-button,
+#card-story-2
+> div
+> .card-story-content
+> div
+> .hide-story-button,
+#card-story-3
+> div
+> .card-story-content
+> div
+> .hide-story-button {
+	background-color: var(--main-color-e6fe58);
+	color: black;
+	border: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#card-story-1
+> div
+> .card-story-content
+> div
+> .hide-story-button:hover,
+#card-story-2
+> div
+> .card-story-content
+> div
+> .hide-story-button:hover,
+#card-story-3
+> div
+> .card-story-content
+> div
+> .hide-story-button:hover {
+	background-color: white;
+	border: 1px solid black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

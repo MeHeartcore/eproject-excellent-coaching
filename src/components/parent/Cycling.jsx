@@ -73,7 +73,7 @@ function Cycling() {
 											to={DownloadData}
 											download="information-course"
 											target="_blank"
-											rel="noreferrer">Learn more</Button>
+											rel="noreferrer">Download</Button>
 									</div>
 								</div>
 							</div>

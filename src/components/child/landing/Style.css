@@ -138,15 +138,12 @@ float: right;
 }
 .card{
 	background-color: black;
-	color: whitesmoke;
+	color: white;
 	border-radius: 10px;
 	box-shadow: 1px 1px 15px #e6fe58;
 	margin-bottom: 15px;
 }
-.card-name{
-	color: #e6fe58;
-	text-align: center
-}
+
 .button{
 	text-align: center;
 	width: 150px;
@@ -203,4 +200,21 @@ float: right;
 > div
 > .join-button:hover {
 	background-color: white;
+}
+
+.fix-card-text {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: justify;
+	font-style: italic;
+	color: white
+}
+
+.fix-card-body {
+	background-color: black;
+}
+
+.fix-card-body
+> .card-name{
+	color: #e6fe58;
+	text-align: center
 }

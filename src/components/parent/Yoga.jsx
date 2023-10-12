@@ -73,7 +73,7 @@ function Yoga() {
 											to={DownloadData}
 											download="information-course"
 											target="_blank"
-											rel="noreferrer">Learn more</Button>
+											rel="noreferrer">Download</Button>
 									</div>
 								</div>
 							</div>
@@ -104,7 +104,7 @@ function Yoga() {
 							<label htmlFor="">Available room:</label>
 							<br />
 							<select name="" id="">
-								<option value="addr1">218 Produce Row, San Antonio, Texas, US</option>
+							<option value="addr1">218 Produce Row, San Antonio, Texas, US</option>
 								<option value="addr2">200 E Main St, Humble, Texas, US</option>
 								<option value="addr1">213 Produce Row, San Antonio, Texas, US</option>
 								<option value="addr2">199 E Main St, Humble, Texas, US</option>

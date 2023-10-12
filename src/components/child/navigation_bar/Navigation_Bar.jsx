@@ -27,6 +27,14 @@ function NavigationBar() {
 							<div>
 								<Nav.Link
 									as={Link}
+									to="/"
+								>
+									HOME
+								</Nav.Link>
+							</div>
+							<div>
+								<Nav.Link
+									as={Link}
 									to="/intro"
 								>
 									INTRO
@@ -67,7 +75,7 @@ function NavigationBar() {
 								>
 									ABOUT US
 								</Nav.Link>
-								<div className="hover-content">
+								{/* <div className="hover-content">
 									<Nav.Link
 										as={Link}
 										to="/gallery"
@@ -80,7 +88,23 @@ function NavigationBar() {
 									>
 										BLOG
 									</Nav.Link>
-								</div>
+								</div> */}
+							</div>
+							<div>
+								<Nav.Link
+									as={Link}
+									to="/gallery"
+								>
+									GALLERY
+								</Nav.Link>
+							</div>
+							<div>
+								<Nav.Link
+									as={Link}
+									to="/blog"
+								>
+									BLOG
+								</Nav.Link>
 							</div>
 							<div>
 								<Nav.Link

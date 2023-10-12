@@ -11,6 +11,8 @@ import news4 from '../../../assets/images/blog/sexynews1.png';
 import news5 from '../../../assets/images/blog/news5.png';
 import news6 from '../../../assets/images/blog/news6.png';
 
+import { Link } from 'react-router-dom';
+
 const Blog_2 = () => {
     return (
         <div className='blog1'>
@@ -20,7 +22,10 @@ const Blog_2 = () => {
                 <br></br>
                 <Row xs={1} md={3} className="g-5">
                     <Col>
-                        <Card>
+                        <Card
+													as={Link}
+													to="/news1"
+												>
                             <Card.Img variant="top" src={news1} />
                             <Card.Body>
                                 <Card.Title><h3>“Nothing can stop me”</h3></Card.Title>
@@ -34,7 +39,10 @@ const Blog_2 = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card
+													as={Link}
+													to="/news2"
+												>
                             <Card.Img variant="top" src={news2} />
                             <Card.Body>
                                 <Card.Title><h3>Class review</h3></Card.Title>
@@ -48,7 +56,11 @@ const Blog_2 = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card
+
+													as={Link}
+													to="/news3"
+												>
                         <Card.Img variant="top" src={news3} />
                             <Card.Body>
                                 <Card.Title><h3>Bipasha takes on Zumba to stay fit:</h3></Card.Title>
@@ -62,7 +74,10 @@ const Blog_2 = () => {
                         </Card>
                     </Col>
                     <Col>
-                    <Card>
+                    <Card
+											as={Link}
+											to="/news4"
+										>
                         <Card.Img variant="top" src={news4} />
                             <Card.Body>
                                 <Card.Title><h3>Nia Sharma’s Sexy Dance In White Outfit Breaks The Internet Again</h3></Card.Title>
@@ -76,7 +91,11 @@ const Blog_2 = () => {
                         </Card>
                     </Col>
                     <Col>
-                    <Card>
+                    <Card
+
+											as={Link}
+													to="/news5"
+										>
                         <Card.Img variant="top" src={news5} />
                             <Card.Body>
                                 <Card.Title><h3>Transformations: From Couch Potato to Powerlifter</h3></Card.Title>
@@ -90,7 +109,10 @@ const Blog_2 = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card
+													as={Link}
+													to="/news6"
+												>
                         <Card.Img variant="top" src={news6} />
                             <Card.Body>
                                 <Card.Title><h3>FIGHTCAMP RELEASES 4 NEW WORKOUT COLLECTIONS:</h3></Card.Title>
