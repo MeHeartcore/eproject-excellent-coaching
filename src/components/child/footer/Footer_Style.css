@@ -138,6 +138,19 @@
 > .row
 > #outtro-wrapper
 > #outtro-content
+> #information-group
+> div
+> a
+> img {
+	height: 65%;
+	width: 65%;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
 > #copyright {
 	height: 40%;
 	display: flex;

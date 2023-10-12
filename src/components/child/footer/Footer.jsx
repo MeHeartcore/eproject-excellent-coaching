@@ -8,6 +8,7 @@ import Logo from "../../../assets/images/header/logo_edited.png"
 import FaceebookLogo from "../../../assets/images/footer/facebook_icon_1.png"
 import TwitterLogo from "../../../assets/images/footer/icons8-twitter-100.png"
 import InstagramLogo from "../../../assets/images/footer/icons8-instagram-100.png"
+import Youtube from "../../../assets/images/footer/icons8-youtube-100.png"
 
 import "./Footer_Style.css"
 
@@ -44,6 +45,7 @@ function Footer() {
 									<img src={FaceebookLogo} alt="social-network-logo"/>
 									<img src={TwitterLogo} alt="social-network-logo"/>
 									<img src={InstagramLogo} alt="social-network-logo"/>
+									<a href="https://www.youtube.com/watch?v=At4ls7uZdlc" target="_blank" rel="noreferrer"><img src={Youtube} alt="social-network-logo"/></a>
 								</div>
 							</div>
 							<div id="copyright">

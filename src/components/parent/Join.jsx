@@ -12,7 +12,7 @@ function Join() {
 	const [name, setName] = useState("")
 	const [email, setEmail] = useState("")
 	const [phone, setPhone] = useState("")
-	const [course, setCourse] = useState("")
+	// const [course, setCourse] = useState("")
 
 	function handleName(event) {
 		setName(event.target.value)
@@ -26,23 +26,18 @@ function Join() {
 		setPhone(event.target.value)
 	}
 
-	function handleCourse() {
-		var a = document.getElementById("form-join-select").value
-		setCourse(a)
+	// function handleCourse() {
+	// 	var a = document.getElementById("form-join-select").value
+	// 	setCourse(a)
 
-		if (course == "yoga")
-			alert("HELL YEAH");
-	}
+	// 	if (course == "yoga")
+	// 		alert("HELL YEAH");
+	// }
 
 	function handleSubmit(event) {
 		event.preventDefault()
 
-		if (name == "ABC")
-			alert("YES");
-
-		setName("")
-		setEmail("")
-		setPhone("")
+		alert("Thank you for joining us!")
 	}
 
 	return (
@@ -96,7 +91,7 @@ function Join() {
 													<label className="form-join-label" htmlFor="">Female</label>
 												</div>
 												<div>
-													<input type="radio" name="" id="" checked/>
+													<input type="radio" name="" id=""/>
 													<label className="form-join-label" htmlFor="">Other</label>
 												</div>
 											</div>
@@ -106,7 +101,7 @@ function Join() {
 										<div className="ABC">
 											<div>
 												<label className="form-join-label" htmlFor="">Select Course</label>
-												<select name="" id="form-join-select" onChange={handleCourse}>
+												<select name="" id="form-join-select">
 													<option value="yoga" >Yoga</option>
 													<option value="gym">Gym</option>
 													<option value="zumba">Zumba</option>
