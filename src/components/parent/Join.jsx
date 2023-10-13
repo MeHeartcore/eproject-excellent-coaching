@@ -12,6 +12,9 @@ function Join() {
 	const [name, setName] = useState("")
 	const [email, setEmail] = useState("")
 	const [phone, setPhone] = useState("")
+	const nameRegex = /^[a-zA-Z ]+$/
+	const emailRegex = /^(\w{5,7})+([\\.-]?\w+)*@\w+([\\.-]?\w+)*(\.\w{2,3})+$/
+	const phoneRegex = /^\d{10,11}$/
 	// const [course, setCourse] = useState("")
 
 	function handleName(event) {
@@ -26,18 +29,39 @@ function Join() {
 		setPhone(event.target.value)
 	}
 
-	// function handleCourse() {
-	// 	var a = document.getElementById("form-join-select").value
-	// 	setCourse(a)
-
-	// 	if (course == "yoga")
-	// 		alert("HELL YEAH");
-	// }
-
 	function handleSubmit(event) {
 		event.preventDefault()
 
-		alert("Thank you for joining us!")
+		if (!nameRegex.test(name)) {
+			document.getElementById("error-name").style.display = "block"
+			document.getElementById("error-name").style.color = "red"
+			// document.getElementById("error-name").style.display = "none"
+			document.getElementById("error-email").style.display = "none"
+			document.getElementById("error-phone").style.display = "none"
+		}
+		else if (!emailRegex.test(email)) {
+			document.getElementById("error-email").style.display = "block"
+			document.getElementById("error-email").style.color = "red"
+			document.getElementById("error-name").style.display = "none"
+			// document.getElementById("error-email").style.display = "none"
+			document.getElementById("error-phone").style.display = "none"
+		}
+		else if (!phoneRegex.test(phone)) {
+			document.getElementById("error-phone").style.display = "block"
+			document.getElementById("error-phone").style.color = "red"
+			document.getElementById("error-name").style.display = "none"
+			document.getElementById("error-email").style.display = "none"
+			// document.getElementById("error-phone").style.display = "none"
+		}
+		else {
+			alert("Thank you for joining us!")
+			setName("")
+			setEmail("")
+			setPhone("")
+			document.getElementById("error-name").style.display = "none"
+			document.getElementById("error-email").style.display = "none"
+			document.getElementById("error-phone").style.display = "none"
+		}
 	}
 
 	return (
@@ -72,6 +96,7 @@ function Join() {
 												<br />
 												<input type="email" name="" id="" value={email} onChange={handleEmail} required
 												placeholder="Enter your email..."/>
+												
 											</div>
 											<div>
 												<label className="form-join-label" htmlFor="">Phone</label>
@@ -83,16 +108,16 @@ function Join() {
 										<div className="gender">
 											<div>
 												<div>
-													<input type="radio" name="" id="" />
-													<label className="form-join-label" htmlFor="">Male</label>
+													<input type="radio" name="abc" id="abc"/>
+													<label className="form-join-label" htmlFor="abc">Male</label>
 												</div>
 												<div>
-													<input type="radio" name="" id="" />
-													<label className="form-join-label" htmlFor="">Female</label>
+													<input type="radio" name="xyz" id="xyz"/>
+													<label className="form-join-label" htmlFor="xyz">Female</label>
 												</div>
 												<div>
-													<input type="radio" name="" id=""/>
-													<label className="form-join-label" htmlFor="">Other</label>
+													<input type="radio" name="qqq" id="qqq"/>
+													<label className="form-join-label" htmlFor="qqq">Other</label>
 												</div>
 											</div>
 										</div>
@@ -127,6 +152,9 @@ function Join() {
 									<div className="form-join-submit">
 										<input type="submit" value="Register" />
 									</div>
+									<p id="error-name">Invaild Name</p>
+									<p id="error-email">Invaild Email</p>
+									<p id="error-phone">Invaild Phone: 10 - 11 digits</p>
 								</div>
 							</form>
 						</div>

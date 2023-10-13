@@ -125,3 +125,15 @@
 	width: 100%;
 	height: 200px;
 }
+
+#error-email {
+	display: none;
+}
+
+#error-name {
+	display: none;
+}
+
+#error-phone {
+	display: none;
+}
